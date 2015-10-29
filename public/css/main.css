@@ -1,0 +1,111 @@
+header {
+  margin-top: 50px;
+}
+
+nav {
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+}
+
+nav a {
+  color: #747070;
+  text-decoration: none;
+  font-family: Verdana;
+}
+
+body {
+  margin: auto;
+  width: 960px;
+}
+
+.nav__link {
+  padding: 25px;
+  display:inline-block;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: Didot;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Microsoft Yi Baiti";
+  font-size: 24px;
+  text-align: center;
+  margin: 50px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  border-color: #747070;
+  /*margin: auto;
+  width: 100%;*/
+  text-align: center;
+  padding: 0;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 14px;
+  margin: 25px;
+}
+
+.social-media {
+  text-align: center;
+  height: 25px;
+  margin: 0;
+}
+
+section a, ul a {
+  color: #747070;
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+.social-media__icon {
+  display: inline-block;
+  position: relative;
+  line-height: 25px;
+  padding: 10px;
+}
+
+ul {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: left;
+}
+
+.section__image--ada {
+  margin: 25px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+.footer__copyright {
+  font-size: 10px;
+}

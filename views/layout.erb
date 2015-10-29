@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> <%= @title %> </title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <h1> <%= @title %> </h1>
+    </header>
+
+    <nav>
+      <div class="nav__link">
+        <a href="/">HOME</a>
+      </div>
+      <div class="nav__link">
+        <a href="/about">ABOUT</a>
+      </div>
+      <div class="nav__link">
+        <a href="/blog">BLOG</a>
+      </div>
+      <div class="nav__link">
+        <a href="/projects">PROJECTS</a>
+      </div>
+    </nav>
+
+    <hr />
+    <%= yield %>
+
+    <footer>
+      <p class="footer__copyright">
+        Copyright &copy; Brittany Kohler <%= Time.now.year %>
+      </p>
+    </footer>
+  </body>
+</html>

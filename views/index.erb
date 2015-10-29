@@ -1,38 +1,50 @@
-<html>
+<!-- <html>
   <head>
     <title>Brittany Kohler</title>
+    <link rel="stylesheet" href="/css/main.css">
   </head>
 
   <body>
+    <header>
+      <h1>Brittany Kohler</h1>
+    </header>
+
     <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/blog">Blog</a>
-      <a href="/projects">Projects</a>
+      <div class="nav">
+        <a href="/">HOME</a>
+      </div>
+      <div class="nav">
+        <a href="/about">ABOUT</a>
+      </div>
+      <div class="nav">
+        <a href="/blog">BLOG</a>
+      </div>
+      <div class="nav">
+        <a href="/projects">PROJECTS</a>
+      </div>
     </nav>
-    <h1>Brittany Kohler</h1>
+
+    <hr /> -->
+
     <table>
       <tr>
         <td>
-          <img src="home_pic1.jpg"
-            height="300"/>
+          <img src="home_pic4.jpg" height="250" alt="Brittany ziplining"/>
         </td>
         <td>
-          <img src="home_pic2.jpg"
-            height="300"/>
+          <img src="<%= @ring_girl_photos[rand(@ring_girl_photos.length)]%>" height="250" alt="Brittany making a cute face"/>
         </td>
+        <!-- <td>
+          <img src="home_pic1.jpg" height="250" alt="Brittany near Space Needle"/>
+        </td> -->
         <td>
-          <img src="home_pic3.jpg"
-               height="300" />
-        </td>
-        <td>
-          <img src="home_pic4.jpg" height="300"/>
+          <img src="home_pic2.jpg" height="250" alt="Brittany microlight flying"/>
         </td>
       </tr>
     </table>
 
     <h2>
-      Thoughts, projects, and information.
+      Thoughts, Projects, and Information
     </h2>
-  </body>
-</html>
+  <!-- </body>
+</html> -->
