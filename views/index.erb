@@ -25,23 +25,24 @@
     </nav>
 
     <hr /> -->
-
-    <table>
-      <tr>
-        <td>
-          <img src="home_pic4.jpg" height="250" alt="Brittany ziplining"/>
-        </td>
-        <td>
-          <img src="<%= @ring_girl_photos[rand(@ring_girl_photos.length)]%>" height="250" alt="Brittany making a cute face"/>
-        </td>
-        <!-- <td>
-          <img src="home_pic1.jpg" height="250" alt="Brittany near Space Needle"/>
-        </td> -->
-        <td>
-          <img src="home_pic2.jpg" height="250" alt="Brittany microlight flying"/>
-        </td>
-      </tr>
-    </table>
+    <div class="container">
+      <table>
+        <tr>
+          <td>
+            <img class="table__image" src="home_pic4.jpg" alt="Brittany ziplining"/>
+          </td>
+          <td>
+            <img class="table__image" src="<%= @ring_girl_photos[rand(@ring_girl_photos.length)]%>" alt="Brittany making a cute face"/>
+          </td>
+          <!-- <td>
+            <img src="home_pic1.jpg" height="250" alt="Brittany near Space Needle"/>
+          </td> -->
+          <td>
+            <img class="table__image" src="home_pic2.jpg" alt="Brittany microlight flying"/>
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <h2>
       Thoughts, Projects, and Information

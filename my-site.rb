@@ -12,10 +12,10 @@ class MySite < Sinatra::Base
       "https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10645079_950388254976881_8127042661441026381_n.jpg?oh=16b2225be9725ec7a50ff8b3c8842144&oe=56C9A9C6",
       "https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/s720x720/10606057_10203842690619241_3911388809414113541_n.jpg?oh=328db0a2c0f2eb88df994a1ff57efe0e&oe=56B7F160",
       "https://scontent-sea1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10299577_10202023545083634_1605245898384836200_n.jpg?oh=68e266dbbe582d3a55a5d0cea9835ff0&oe=56B5D88F",
-      "https://slack-files.com/files-tmb/T094D9UHK-F0D7K53R9-4de7e313d1/the_ring_girl_runs_a_5k_1024.jpg",
-      "https://slack-files.com/files-tmb/T094D9UHK-F0D7RR5G9-eea123c56b/ring_girl_can_levitate_1024.jpg",
-      "https://slack-files.com/files-tmb/T094D9UHK-F0D7NBRV5-b8c43f8471/ring_girl_and_friend__1024.jpg",
-      "https://slack-files.com/files-tmb/T094D9UHK-F0D7PG0G0-a6304e0b5e/ring_girl_goes_to_a_wedding_360.jpg"
+      # "https://slack-files.com/files-tmb/T094D9UHK-F0D7K53R9-4de7e313d1/the_ring_girl_runs_a_5k_1024.jpg",
+      # "https://slack-files.com/files-tmb/T094D9UHK-F0D7RR5G9-eea123c56b/ring_girl_can_levitate_1024.jpg",
+      # "https://slack-files.com/files-tmb/T094D9UHK-F0D7NBRV5-b8c43f8471/ring_girl_and_friend__1024.jpg",
+      # "https://slack-files.com/files-tmb/T094D9UHK-F0D7PG0G0-a6304e0b5e/ring_girl_goes_to_a_wedding_360.jpg"
     ]
     erb :index
   end
