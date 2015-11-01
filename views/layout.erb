@@ -9,46 +9,51 @@
   </head>
   <body>
 
-    <header>
-      <h1> brittany kohler </h1>
-    </header>
+    <div class="stay-at-top">
+      <header>
+        <h1> brittany kohler </h1>
+      </header>
 
-    <nav>
-      <hr />
-      <div class="nav__link">
-        <% if @title == "Home" %>
-          <a class="selected" href="/">HOME</a>
-        <% else %>
-          <a href="/">HOME</a>
-        <% end %>
-      </div>
+      <nav>
+        <hr />
+        <div class="nav__link">
+          <% if @title == "Home" %>
+            <a class="selected" href="/">HOME</a>
+          <% else %>
+            <a href="/">HOME</a>
+          <% end %>
+        </div>
 
-      <div class="nav__link">
-        <% if @title == "About" %>
-          <a class="selected" href="/about">ABOUT</a>
-        <% else %>
-          <a href="/about">ABOUT</a>
-        <% end %>
-      </div>
+        <div class="nav__link">
+          <% if @title == "About" %>
+            <a class="selected" href="/about">ABOUT</a>
+          <% else %>
+            <a href="/about">ABOUT</a>
+          <% end %>
+        </div>
 
-      <div class="nav__link">
-        <% if @title == "Blog" %>
-          <a class="selected" href="/blog">BLOG</a>
-        <% else %>
-          <a href="/blog">BLOG</a>
-        <% end %>
-      </div>
+        <div class="nav__link">
+          <% if @title == "Blog" %>
+            <a class="selected" href="/blog">BLOG</a>
+          <% else %>
+            <a href="/blog">BLOG</a>
+          <% end %>
+        </div>
 
-      <div class="nav__link">
-        <% if @title == "Projects" %>
-          <a class="selected" href="/projects">PROJECTS</a>
-        <% else %>
-          <a href="/projects">PROJECTS</a>
-        <% end %>
-      </div>
+        <div class="nav__link">
+          <% if @title == "Projects" %>
+            <a class="selected" href="/projects">PROJECTS</a>
+          <% else %>
+            <a href="/projects">PROJECTS</a>
+          <% end %>
+        </div>
 
-      <hr />
-    </nav>
+        <hr />
+      </nav>
+    </div>
+
+    <div class="spacer">
+    </div>
 
     <%= yield %>
 

@@ -7,9 +7,7 @@ nav {
   margin-bottom: 25px;
   margin-top: 50px;
   background-color: #ffffff;
-  /*position: fixed;*/
   width: 960px;
-  z-index: 1;
 }
 
 nav a {
@@ -147,4 +145,14 @@ footer {
 
 .selected {
   text-decoration: underline;
+}
+
+.stay-at-top {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+.spacer {
+  height: 200px;
 }
